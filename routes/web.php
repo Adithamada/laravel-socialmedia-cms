@@ -13,3 +13,7 @@ Route::get('/explore', function () {
 Route::get('/saved', function () {
     return view('pages.saved');
 });
+
+Route::get('/user', function () {
+    return view('layouts.main-in');
+});
