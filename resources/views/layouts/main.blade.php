@@ -48,23 +48,28 @@
 
             <!-- MAIN CONTENT -->
             <div class="container-fluid main-content col-6 offset-3 bg-second-dark px-4">
-                <div class="d-flex justify-content-center">
-                    <div class="bg-light my-4 rounded w-75" style="height: fit-content;">
+                <div class="d-flex justify-content-center" style="position: fixed; top: 60px; left: 50%; transform: translateX(-50%); z-index: 1000; width: 35%;">
+                    <div class="bg-light my-4 rounded w-100" style="height: fit-content;">
                         <form action="">
-                            <div class="d-flex justify-content-evenly">
-                                <input type="text" class="input-search " placeholder="Search...">
+                            <div class="d-flex justify-content-evenly shadow">
+                                <input type="text" class="input-search" placeholder="Search...">
                                 <button class="btn-search"><i class="bi bi-search"></i></button>
                             </div>
                         </form>
                     </div>
                 </div>
-                <h4 class="text-light">Dashboard</h4>
-                @yield('content')
+
+                <!-- Content Section -->
+                <div style="margin-top: 80px;">
+                    @yield('content')
+                </div>
             </div>
             <!-- RIGHT BAR -->
             <div class="col-3 bg-second-dark text-center" style="position: fixed; top: 50; right: 0; height: 100%; z-index: 100;">
                 <div class="mt-4 mb-3">
-                    <img src="{{ asset('assets/img/profile.png') }}" alt="" class="img-fluid w-50 rounded-pill border">
+                    <a class="nav-link text-light nav-icon" href="#">
+                        <img src="{{ asset('assets/img/profile.png') }}" alt="" class="img-rightbar rounded-pill border">
+                    </a>
                 </div>
                 <a href="" class="text-decoration-none text-light fs-4">Adithamada</a>
                 <div class="row mt-3">

@@ -40,6 +40,16 @@
 .img-navbar:hover{
     opacity: 70%;
 }
+.img-rightbar {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    transition: all 0.3s ease;
+}
+.img-rightbar:hover{
+    opacity: 70%;
+}
 
 .side-nav{
     height: 100%;
