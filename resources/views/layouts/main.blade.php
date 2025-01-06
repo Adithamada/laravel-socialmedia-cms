@@ -40,9 +40,9 @@
             <!-- LEFT BAR -->
             <div class="col-3 bg-second-dark" style="position: fixed; top: 50; left: 0; height: 100%; z-index: 100;">
                 <div class="side-nav d-flex flex-column gap-3 mt-4">
-                    <a href="" class="side-nav-link active-side d-flex justify-content-between">Dashboard <i class="bi bi-list"></i></a>
-                    <a href="" class="side-nav-link d-flex justify-content-between">Explore <i class="bi bi-compass-fill"></i></a>
-                    <a href="" class="side-nav-link d-flex justify-content-between">Saved <i class="bi bi-bookmark-fill"></i></a>
+                    <a href="/dashboard" class="side-nav-link d-flex justify-content-between @if(Request::is('dashboard')) active-side @endif">Dashboard <i class="bi bi-list"></i></a>
+                    <a href="/explore" class="side-nav-link d-flex justify-content-between @if(Request::is('explore')) active-side @endif">Explore <i class="bi bi-compass-fill"></i></a>
+                    <a href="/saved" class="side-nav-link d-flex justify-content-between @if(Request::is('saved')) active-side @endif">Saved <i class="bi bi-bookmark-fill"></i></a>
                 </div>
             </div>
 
