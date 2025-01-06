@@ -25,7 +25,7 @@
                     <a class="nav-link text-light fs-4 nav-icon" aria-current="page" href="#"><i class="bi bi-plus-circle-fill"></i></a>
                     <a class="nav-link text-light fs-4 nav-icon" href="#"><i class="bi bi-bell-fill"></i></a>
                     <a class="nav-link text-light fs-4 nav-icon" href="#"><i class="bi bi-bookmark"></i></a>
-                    <a class="nav-link text-light fs-4 nav-icon" href="#">
+                    <a class="nav-link text-light fs-4 nav-icon" href="/user">
                         <img src="{{ asset('assets/img/profile.png') }}" alt="Profile Picture" class="img-navbar border">
                     </a>
                 </div>
@@ -67,11 +67,11 @@
             <!-- RIGHT BAR -->
             <div class="col-3 bg-second-dark text-center" style="position: fixed; top: 50; right: 0; height: 100%; z-index: 100;">
                 <div class="mt-4 mb-3">
-                    <a class="nav-link text-light nav-icon" href="#">
+                    <a class="nav-link text-light nav-icon" href="/user">
                         <img src="{{ asset('assets/img/profile.png') }}" alt="" class="img-rightbar rounded-pill border">
                     </a>
                 </div>
-                <a href="" class="text-decoration-none text-light fs-4">Adithamada</a>
+                <a href="/user" class="text-decoration-none text-light fs-4">Adithamada</a>
                 <div class="row mt-3">
                     <div class="col-4 text-center text-light">
                         <p class="lh-1 mb-2 fs-5">10</p>

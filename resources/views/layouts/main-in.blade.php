@@ -47,7 +47,7 @@
             </div>
 
             <!-- MAIN CONTENT -->
-            <div class="col-9 bg-dark">
+            <div class="main-content container-fluid col-9 bg-dark " style="margin-left: 25%;">
                 @yield('content')
             </div>
         </div>

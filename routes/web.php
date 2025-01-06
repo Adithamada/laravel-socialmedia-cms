@@ -15,5 +15,5 @@ Route::get('/saved', function () {
 });
 
 Route::get('/user', function () {
-    return view('layouts.main-in');
+    return view('pages.user-profile');
 });
