@@ -51,7 +51,7 @@
                 <div class="d-flex justify-content-center" style="position: fixed; top: 60px; left: 50%; transform: translateX(-50%); z-index: 1000; width: 35%;">
                     <div class="bg-light my-4 rounded w-100" style="height: fit-content;">
                         <form action="">
-                            <div class="d-flex justify-content-evenly shadow">
+                            <div class="d-flex justify-content-evenly shadow rounded">
                                 <input type="text" class="input-search" placeholder="Search...">
                                 <button class="btn-search"><i class="bi bi-search"></i></button>
                             </div>
@@ -88,7 +88,7 @@
                 </div>
                 <!-- Center the button -->
                 <div class="row mt-2">
-                    <button class="btn btn-light mx-auto" style="width: fit-content;">View Profile</button>
+                    <a class="btn btn-light mx-auto" style="width: fit-content;">View Profile</a>
                 </div>
             </div>
         </div>

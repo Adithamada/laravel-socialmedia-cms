@@ -9,3 +9,7 @@ Route::get('/dashboard', function () {
 Route::get('/explore', function () {
     return view('pages.explore');
 });
+
+Route::get('/saved', function () {
+    return view('pages.saved');
+});
