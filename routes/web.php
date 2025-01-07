@@ -18,6 +18,6 @@ Route::get('/user', function () {
     return view('pages.user-profile');
 });
 
-Route::get('/user/post', function () {
-    return view('pages.user-post-detail');
+Route::get('/user/create', function () {
+    return view('pages.user-create-post');
 });

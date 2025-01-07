@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css') }}">
 </head>
 
-<body>
+<body class="bg-dark">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark px-4 sticky-top">
         <div class="container-fluid">
@@ -47,7 +47,7 @@
             </div>
 
             <!-- MAIN CONTENT -->
-            <div class="main-content container-fluid col-9 bg-dark px-4" style="margin-left: 25%;">
+            <div class="main-content container-fluid col-9 bg-dark px-4" style="margin-left: 25%;height: 700px;">
                 @yield('content')
             </div>
         </div>
