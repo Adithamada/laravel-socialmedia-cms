@@ -112,3 +112,14 @@ nav{
 .img-post:hover{
     opacity: 0.8;
 }
+.comment-section{
+    padding: 10px 5px;
+    border-bottom: 1px solid var(--dark);
+}
+.input-comment{
+    border: none;
+}
+.input-comment:focus{
+    border: none;
+    outline: none;
+}

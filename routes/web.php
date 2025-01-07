@@ -18,6 +18,6 @@ Route::get('/user', function () {
     return view('pages.user-profile');
 });
 
-Route::get('/user/follower', function () {
-    return view('pages.user-followed');
+Route::get('/user/post', function () {
+    return view('pages.user-post-detail');
 });
