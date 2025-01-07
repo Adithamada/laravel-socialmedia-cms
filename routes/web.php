@@ -17,3 +17,7 @@ Route::get('/saved', function () {
 Route::get('/user', function () {
     return view('pages.user-profile');
 });
+
+Route::get('/user/follower', function () {
+    return view('pages.user-followed');
+});

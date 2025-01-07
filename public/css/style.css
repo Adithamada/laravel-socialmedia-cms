@@ -52,6 +52,13 @@ nav{
 .img-rightbar:hover{
     opacity: 70%;
 }
+.img-user-follow {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    transition: all 0.3s ease;
+}
 
 .side-nav{
     height: 100%;

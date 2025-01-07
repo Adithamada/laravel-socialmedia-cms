@@ -1,6 +1,7 @@
 @extends('layouts.main-in')
 
 @section('content')
+<i class="bi bi-arrow-left text-light fs-4"></i>
 <div class="text-center d-flex flex-column align-items-center justify-content-center">
     <div class="mt-4 mb-3">
         <a class="nav-link text-light nav-icon" href="#" style="width: fit-content;">
@@ -14,8 +15,8 @@
             <p class="fs-5 lh-1">Posts</p>
         </div>
         <div class="col-4 text-center text-light">
-            <p class="lh-1 mb-2 fs-5">258</p>
-            <p class="fs-5 lh-1">Follower</p>
+            <p class="lh-1 mb-2 fs-5">1 Million</p>
+            <a href="/user/follower" class="nav-link"><p class="fs-5 lh-1">Follower</p></a>
         </div>
         <div class="col-4 text-center text-light">
             <p class="lh-1 mb-2 fs-5">604</p>
@@ -29,61 +30,96 @@
 </div>
 <div class="my-5">
     <div class="card bg-light p-3">
-        <div class="row ">
+        <div class="row mb-3">
             <h4 class="text-dark">Posts</h4>
-            <div class="col-3 mb-3">
-                <div class="card p-2">
+            <div class="col-3">
+                <div class="card">
                     <a href="#">
                         <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
                     </a>
                 </div>
             </div>
 
-            <div class="col-3 mb-3">
-                <div class="card p-2">
-                    <a href="">
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
                         <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
                     </a>
                 </div>
             </div>
-            <div class="col-3 mb-3">
-                <div class="card p-2">
-                    <a href="">
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
                         <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
                     </a>
                 </div>
             </div>
-            <div class="col-3 mb-3">
-                <div class="card p-2">
-                    <a href="">
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
                         <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
                     </a>
                 </div>
             </div>
-            <div class="col-3 mb-3">
-                <div class="card p-2">
-                    <a href="">
+        </div>
+        <div class="row mb-3">
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
                         <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
                     </a>
                 </div>
             </div>
-            <div class="col-3 mb-3">
-                <div class="card p-2">
-                    <a href="">
+
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
                         <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
                     </a>
                 </div>
             </div>
-            <div class="col-3 mb-3">
-                <div class="card p-2">
-                    <a href="">
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
                         <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
                     </a>
                 </div>
             </div>
-            <div class="col-3 mb-3">
-                <div class="card p-2">
-                    <a href="">
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
+                    </a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
+                    </a>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <a href="#">
                         <img src="{{ asset('assets/img/content.png') }}" class="img-post w-100 rounded">
                     </a>
                 </div>
